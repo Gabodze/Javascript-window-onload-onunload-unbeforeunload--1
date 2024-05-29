@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="btn()">New link</button>
+    <script>
+        window.onload = function(){
+            window.alert("გვერდი ჩაიტვირთა")
+        }
+        function btn() {
+            location.assign("https://github.com/");
+        }
+        window.onunload = function(){
+            alert("თქვენ გადადიხართ სხვა გვერდზე");
+        }
+     
+    </script>
+</body>
+</html>
